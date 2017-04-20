@@ -1,4 +1,4 @@
-//Checks pressed example and returns a bool value
+//Checks pressed example
 //Unsatisfying solution
 function unsolution(String, notDefined, Eobject, Object)
 {
@@ -7,7 +7,7 @@ function unsolution(String, notDefined, Eobject, Object)
 	if(String)
 	{
 		example = document.getElementById('unex_one');
-		//alert("");
+
 		example.innerHTML = isNaN("String");
 		
 		
@@ -35,7 +35,7 @@ function unsolution(String, notDefined, Eobject, Object)
 
 
 
-//Checks pressed example and returns a bool value
+//Checks pressed example
 //Satisfying Solution
 function solution(String, notDefined, Eobject, Object)
 {
@@ -68,7 +68,7 @@ function solution(String, notDefined, Eobject, Object)
 }
 
 
-//A satisfying way to check if NaN
+//A satisfying way to check if value is NaN
 function check_if_NaN(Input)
 {
 	return Input !== Input
